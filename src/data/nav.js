@@ -7,7 +7,8 @@ export const NAV_ITEMS = [
 ]
 
 export const LEGAL_LINKS = [
-  { label: "RGPD", href: "#rgpd" },
+  { label: "Mentions légales", href: "#mentions-legales" },
   { label: "CGV", href: "#cgv" },
   { label: "Politique de confidentialité", href: "#politique-confidentialite" },
+  { label: "Gestion des cookies", href: "#gestion-cookies" },
 ]

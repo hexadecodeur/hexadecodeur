@@ -7,6 +7,7 @@ import ProjectSlide from "../components/ProjectSlide"
 import ProductFeaturesGrid from "../components/ProductFeaturesGrid"
 import ContactForm from "../components/ContactForm"
 import { PROJECTS } from "../data/projects"
+import { getHeaderOffset } from "../utils/scroll"
 import background from "../assets/images/background-brain-cyberpunk.jpg"
 import aboutPhoto from "../assets/images/anthony-profile.png"
 import heroLogo from "../assets/logos/hello-dev0ps-transparent.svg"
@@ -17,6 +18,17 @@ const CONTACT_PHONE_ENABLED = false
 
 function OnePage({ onSectionChange }) {
   const [showAssistant, setShowAssistant] = useState(false)
+
+  useEffect(() => {
+    const hash = window.location.hash.slice(1)
+    if (!SECTION_IDS.includes(hash) || hash === "home") return
+
+    const el = document.getElementById(hash)
+    if (!el) return
+
+    const y = el.getBoundingClientRect().top + window.scrollY - getHeaderOffset()
+    window.scrollTo({ top: y, behavior: "smooth" })
+  }, [])
 
   useEffect(() => {
     if (!onSectionChange) return
