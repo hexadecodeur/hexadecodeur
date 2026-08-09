@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react"
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 import Layout from "./components/Layout"
 import OnePage from "./pages/OnePage"
@@ -46,6 +47,7 @@ function App() {
         )}
       </Layout>
       <Analytics />
+      <SpeedInsights />
     </>
   )
 }
