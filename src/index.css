@@ -1105,6 +1105,25 @@ section[id] {
   margin-top: 0.5rem;
 }
 
+.contact-privacy-note {
+  margin: 1rem 0 0;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  opacity: 0.7;
+  text-align: center;
+}
+
+.contact-privacy-note a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.contact-privacy-note a:hover {
+  opacity: 1;
+  color: var(--accent-cyan);
+}
+
 .contact-submit {
   font-family: var(--font-display);
   letter-spacing: 0.06em;

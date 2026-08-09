@@ -427,6 +427,12 @@ function ContactForm() {
           {isLoading ? "Envoi en cours…" : "Initialiser le projet"}
         </button>
       </div>
+
+      <p className="contact-privacy-note">
+        Les informations transmises sont utilisées pour traiter votre demande et vous recontacter.
+        En savoir plus :{" "}
+        <a href="#politique-confidentialite">Politique de confidentialité</a>.
+      </p>
     </form>
   )
 }
