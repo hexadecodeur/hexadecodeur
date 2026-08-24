@@ -7,7 +7,7 @@ function MentionsLégales() {
         <h2>1- Editeur du site</h2>
         <p>
           En vertu de l’article 6 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l’économie numérique,
-          il est précisé aux utilisateurs du site internet <a href="https://hello-dev0ps.vercel.app/">https://hello-dev0ps.vercel.app/</a>
+          il est précisé aux utilisateurs du site internet <a href="https://hexadecodeur.fr/">https://hexadecodeur.fr/</a>
           l’identité des différents intervenants dans le cadre de sa réalisation et de son suivi :
         </p>
         <p>
@@ -51,9 +51,9 @@ function MentionsLégales() {
           sans pouvoir garantir l’absence totale d’erreurs ou d’omissions.
         </p>
         <p>
-          Le site <a href="https://hello-dev0ps.vercel.app/">https://hello-dev0ps.vercel.app/</a> contient des liens hypertextes vers d'autres sites internet
+          Le site <a href="https://hexadecodeur.fr/">https://hexadecodeur.fr/</a> contient des liens hypertextes vers d'autres sites internet
           et dégage toute responsabilité à propos de ces liens externes ou des liens créés par d’autres sites vers
-          <a href="https://hello-dev0ps.vercel.app/">https://hello-dev0ps.vercel.app/</a>.
+          <a href="https://hexadecodeur.fr/">https://hexadecodeur.fr/</a>.
         </p>
         <p>
           Anthony EXARTIER, Hexa Décodeur met en œuvre les moyens raisonnables afin d’assurer
