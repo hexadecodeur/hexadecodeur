@@ -12,7 +12,7 @@ function Footer() {
           aria-label="Retour en haut de page"
           onClick={(e) => scrollToSection(e, "home")}
         >
-          <img src={logo} alt="Hello_Dev0ps!" className="logo" />
+          <img src={logo} alt="Hexa Décodeur" className="logo" />
         </a>
 
         <nav className="site-footer-legal" aria-label="Informations légales">
@@ -25,7 +25,7 @@ function Footer() {
       </div>
 
       <div className="site-footer-sub">
-        © 2026 Hello_Dev0ps! — Anthony EXARTIER. Tous droits réservés.
+        © 2026 Hexa Décodeur — Anthony EXARTIER. Tous droits réservés.
       </div>
     </footer>
   )

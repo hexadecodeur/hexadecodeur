@@ -55,14 +55,14 @@ export const PROJECTS = [
     ],
   },
   {
-    id: "hello-dev0ps",
-    title: "Site vitrine Hello_Dev0ps!",
+    id: "hexa decodeur",
+    title: "Site vitrine Hexa Décodeur",
     stack:
       "React, Vite, JavaScript (ES6+), CSS3, React Router (navigation initiale puis migration vers une architecture one-page), Cursor (développement assisté par IA), Git & GitHub.",
     sections: [
       {
         heading: "Défi rencontré",
-        text: "Créer un portfolio qui ne ressemble pas à un modèle générique tout en restant professionnel, performant et agréable à utiliser sur ordinateur comme sur mobile. L'objectif était également de construire une véritable identité visuelle autour de la marque Hello_Dev0ps! plutôt qu'une simple vitrine de compétences.",
+        text: "Créer un portfolio qui ne ressemble pas à un modèle générique tout en restant professionnel, performant et agréable à utiliser sur ordinateur comme sur mobile. L'objectif était également de construire une véritable identité visuelle autour de la marque Hexa Décodeur plutôt qu'une simple vitrine de compétences.",
       },
       {
         heading: "Solutions mises en place",

@@ -10,7 +10,7 @@ import { PROJECTS } from "../data/projects"
 import { getHeaderOffset } from "../utils/scroll"
 import background from "../assets/images/background-brain-cyberpunk.jpg"
 import aboutPhoto from "../assets/images/anthony-profile.png"
-import heroLogo from "../assets/logos/hello-dev0ps-transparent.svg"
+import heroLogo from "../assets/logos/color_hexadecodeur_no_bg.svg"
 
 const SECTION_IDS = ["home", "about", "services", "expertise", "projects", "contact"]
 const ASSISTANT_INTRO_ENABLED = false
@@ -66,7 +66,7 @@ function OnePage({ onSectionChange }) {
           <div className="hero-content">
             <img
               src={heroLogo}
-              alt="Hello_Dev0ps!"
+              alt="Hexa Décodeur"
               className="hero-logo"
             />
             <p className="hero-subtitle">
@@ -237,7 +237,7 @@ function OnePage({ onSectionChange }) {
           <ul className="contact-list">
             <li>
               <span className="contact-label">Email</span>
-              <a href="mailto:hello.dev0ps81@gmail.com">hello.dev0ps81@gmail.com</a>
+              <a href="mailto:hexadecodeur@gmail.com">hexadecodeur@gmail.com</a>
             </li>
             {CONTACT_PHONE_ENABLED && (
               <li>
@@ -250,8 +250,8 @@ function OnePage({ onSectionChange }) {
                 <TechIcon id="linkedin" className="contact-label-icon" />
                 LinkedIn
               </span>
-              <a href="https://linkedin.com/in/hellodev0ps" target="_blank" rel="noopener noreferrer">
-                linkedin.com/in/hellodev0ps
+              <a href="https://linkedin.com/in/anthony-exartier" target="_blank" rel="noopener noreferrer">
+                linkedin.com/in/anthony-exartier
               </a>
             </li>
             <li>

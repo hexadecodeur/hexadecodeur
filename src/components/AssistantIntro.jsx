@@ -4,7 +4,7 @@ function AssistantIntro({ onClose }) {
             <div className="assistant-box">
                 <p>
                     Bonjour et bienvenue sur le site vitrine de
-                    <strong> Hello_Dev0ps!</strong>.
+                    <strong> Hexa Décodeur</strong>.
                 </p>
                 <p>
                     Je suis son assistant numérique personnel.

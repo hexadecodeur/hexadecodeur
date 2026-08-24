@@ -7,7 +7,7 @@ function PolitiqueConfid() {
         <p><strong>Dernière mise à jour : 09/08/2026</strong></p>
         <br />
         <p>
-          La présente politique de confidentialité a pour objectif d’informer les utilisateurs du site Hello_Dev0ps!
+          La présente politique de confidentialité a pour objectif d’informer les utilisateurs du site Hexa Décodeur
           sur la manière dont leurs données personnelles sont collectées et traitées.
         </p>
         <br />
@@ -17,8 +17,8 @@ function PolitiqueConfid() {
           Le responsable du traitement des données personnelles collectées via ce site est :
           <ul>
             <li>Anthony EXARTIER - Entrepreneur individuel ;</li>
-            <li>Nom commercial : Hello_Dev0ps! ;</li>
-            <li>Email : <a href="mailto:hello.dev0ps81@gmail.com">hello.dev0ps81@gmail.com</a> ;</li>
+            <li>Nom commercial : Hexa Décodeur ;</li>
+            <li>Email : <a href="mailto:hexadecodeur@gmail.com">hexadecodeur@gmail.com</a> ;</li>
             <li>Adresse professionnelle : Tarn (81), France ;</li>
           </ul>
         </p>
@@ -62,7 +62,7 @@ function PolitiqueConfid() {
         <h2>Base juridique du traitement</h2>
         <br />
         <p>
-          Lorsque vous contactez Anthony EXARTIER, Hello_Dev0ps! afin d’obtenir des informations,
+          Lorsque vous contactez Anthony EXARTIER, Hexa Décodeur afin d’obtenir des informations,
           une proposition commerciale ou un devis concernant un projet, le traitement de vos données est fondé sur
           l’exécution de mesures précontractuelles prises à votre demande,
           conformément à l’article 6, paragraphe 1, point b) du RGPD.
@@ -80,7 +80,7 @@ function PolitiqueConfid() {
         <h2>Destinataires et prestataires techniques</h2>
         <br />
         <p>
-          Les données transmises sont destinées à Anthony EXARTIER, Hello_Dev0ps! et ne sont accessibles
+          Les données transmises sont destinées à Anthony EXARTIER, Hexa Décodeur et ne sont accessibles
           qu’aux personnes et prestataires ayant besoin d’y accéder pour assurer le fonctionnement
           du site et le traitement des demandes.
         </p>
@@ -156,7 +156,7 @@ function PolitiqueConfid() {
           </ul>
         </p>
         <p>
-          Vous pouvez exercer ces droits en vous adressant à <a href="mailto:hello.dev0ps81@gmail.com">hello.dev0ps81@gmail.com</a>.
+          Vous pouvez exercer ces droits en vous adressant à <a href="mailto:hexadecodeur@gmail.com">hexadecodeur@gmail.com</a>.
         </p>
         <p>
           Une vérification de votre identité pourra être demandée lorsque cela est nécessaire

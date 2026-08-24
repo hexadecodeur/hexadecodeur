@@ -14,11 +14,11 @@ function Cgv() {
         <p>
           <ul>
             <li><strong>Anthony EXARTIER — Entrepreneur individuel</strong></li>
-            <li>Nom commercial : <strong>Hello_Dev0ps!</strong></li>
+            <li>Nom commercial : <strong>Hexa Décodeur</strong></li>
             <li>SIREN : <strong>898 946 710</strong></li>
             <li>TVA intracommunautaire : <strong>FR67898946710</strong></li>
             <li>Adresse professionnelle : <strong>Tarn (81), France</strong></li>
-            <li>Email : <a href="mailto:hello.dev0ps81@gmail.com"><strong>hello.dev0ps81@gmail.com</strong></a></li>
+            <li>Email : <a href="mailto:hexadecodeur@gmail.com"><strong>hexadecodeur@gmail.com</strong></a></li>
           </ul>
         </p>
         <p>
@@ -340,7 +340,7 @@ function Cgv() {
         <p>
           <ul>
             <li><strong>Anthony EXARTIER</strong></li>
-            <li>Email : <a href="mailto:hello.dev0ps81@gmail.com"><strong>hello.dev0ps81@gmail.com</strong></a></li>
+            <li>Email : <a href="mailto:hexadecodeur@gmail.com"><strong>hexadecodeur@gmail.com</strong></a></li>
           </ul>
         </p>
         <p>

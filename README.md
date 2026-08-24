@@ -1,6 +1,6 @@
-# Hello_Dev0ps — Site vitrine
+# Hexa Décodeur — Site vitrine
 
-Site vitrine one-page de **Anthony Exartier** (*Hello_Dev0ps*), développeur full-stack augmenté par l'IA.
+Site vitrine one-page de **Anthony Exartier** (*Hexa Décodeur*), développeur full-stack augmenté par l'IA.
 
 Interface cyberpunk / HUD, déployée sur Vercel avec formulaire de contact (Resend).
 
@@ -33,7 +33,7 @@ Interface cyberpunk / HUD, déployée sur Vercel avec formulaire de contact (Res
 
 ```bash
 git clone https://github.com/hellOdevOps-bit/hello-dev0ps.git
-cd hello-dev0ps
+cd hexa decodeur
 pnpm install
 cp .env.example .env.local
 ```
@@ -61,8 +61,8 @@ Le front envoie un `POST /api/contact` (JSON) vers la fonction Vercel, qui envoi
 | Variable | Rôle |
 |----------|------|
 | `RESEND_API_KEY` | Clé API Resend (**jamais** préfixer par `VITE_`) |
-| `CONTACT_FROM` | Expéditeur (domaine vérifié chez Resend). Défaut test : `Hello_Dev0ps! <onboarding@resend.dev>` |
-| `CONTACT_TO` | Destinataire. Défaut : `hello.dev0ps81@gmail.com` |
+| `CONTACT_FROM` | Expéditeur (domaine vérifié chez Resend). Défaut test : `Hexa Décodeur <onboarding@resend.dev>` |
+| `CONTACT_TO` | Destinataire. Défaut : `hexadecodeur@gmail.com` |
 
 L’email du visiteur est placé en `replyTo` : quand tu cliques sur « Répondre » dans Gmail, la réponse part au client.
 
@@ -109,11 +109,11 @@ pnpm build
 
 ## Auteur
 
-**Anthony Exartier** — Hello_Dev0ps
+**Anthony Exartier** — Hexa Décodeur
 
-- [LinkedIn](https://linkedin.com/in/hellodev0ps)
+- [LinkedIn](https://linkedin.com/in/anthony-exartier)
 - [GitHub](https://github.com/hellOdevOps-bit)
-- [hello.dev0ps81@gmail.com](mailto:hello.dev0ps81@gmail.com)
+- [hexadecodeur@gmail.com](mailto:hexadecodeur@gmail.com)
 
 ## Licence
 

@@ -41,7 +41,7 @@ function Navbar({ activeSection = "home" }) {
         aria-label="Accueil"
         onClick={(e) => scrollToSection(e, "home")}
       >
-        <img src={logo} alt="Hello_Dev0ps!" className="logo" />
+        <img src={logo} alt="Hexa Décodeur" className="logo" />
       </a>
 
       <div ref={navLinksRef} className="nav-links">

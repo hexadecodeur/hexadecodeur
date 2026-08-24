@@ -57,7 +57,7 @@ function buildEmailText(payload) {
       : labelFrom(PROJECT_TYPES, payload.projectType)
 
   return `
-Nouveau message depuis le formulaire Hello_Dev0ps!
+Nouveau message depuis le formulaire Hexa Décodeur
 
 Identité
 - Nom : ${payload.name}
@@ -153,8 +153,8 @@ export async function POST(request) {
     }
 
     const from =
-      process.env.CONTACT_FROM || "Hello_Dev0ps! <onboarding@resend.dev>"
-    const to = process.env.CONTACT_TO || "hello.dev0ps81@gmail.com"
+      process.env.CONTACT_FROM || "Hexa Décodeur <onboarding@resend.dev>"
+    const to = process.env.CONTACT_TO || "hexadecodeur@gmail.com"
 
     const payload = {
       name,

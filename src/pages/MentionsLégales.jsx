@@ -13,13 +13,13 @@ function MentionsLégales() {
         <p>
           <ul>
             <li>
-              Propriétaire du site : Anthony EXARTIER - Entrepreneur individuel, Hello_Dev0ps!
-              - Contact : <a href="mailto:hello.dev0ps81@gmail.com">hello.dev0ps81@gmail.com</a>
+              Propriétaire du site : Anthony EXARTIER - Entrepreneur individuel, Hexa Décodeur
+              - Contact : <a href="mailto:hexadecodeur@gmail.com">hexadecodeur@gmail.com</a>
               - Numéro de téléphone : 06.00.00.00.00 - Adresse : Tarn (81).
             </li>
-            <li>Identification de l'entreprise : Anthony EXARTIER, Hello_Dev0ps! - SIREN : 898 946 710 - Adresse postale : Tarn (81)</li>
+            <li>Identification de l'entreprise : Anthony EXARTIER, Hexa Décodeur - SIREN : 898 946 710 - Adresse postale : Tarn (81)</li>
             <li>Numéro de TVA : FR67898946710</li>
-            <li>Directeur de la publication : Anthony EXARTIER - Contact : <a href="mailto:hello.dev0ps81@gmail.com">hello.dev0ps81@gmail.com</a></li>
+            <li>Directeur de la publication : Anthony EXARTIER - Contact : <a href="mailto:hexadecodeur@gmail.com">hexadecodeur@gmail.com</a></li>
           </ul>
         </p>
         <br />
@@ -37,7 +37,7 @@ function MentionsLégales() {
         </p>
         <p>
           Toute reproduction, représentation, modification, publication, adaptation de tout ou partie des éléments du site,
-          quel que soit le moyen ou le procédé utilisé, est interdite, sauf autorisation écrite préalable de Anthony EXARTIER, Hello_Dev0ps!.
+          quel que soit le moyen ou le procédé utilisé, est interdite, sauf autorisation écrite préalable de Anthony EXARTIER, Hexa Décodeur.
         </p>
         <p>
           Toute exploitation non autorisée du site ou de l'un quelconque des éléments qu'il contient sera considérée comme constitutive
@@ -47,7 +47,7 @@ function MentionsLégales() {
         <h2>4- Responsabilité</h2>
         <p>
           Les informations publiées sur ce site sont fournies à titre informatif.
-          Anthony EXARTIER, Hello_Dev0ps! s’efforce d’en assurer l’exactitude et la mise à jour,
+          Anthony EXARTIER, Hexa Décodeur s’efforce d’en assurer l’exactitude et la mise à jour,
           sans pouvoir garantir l’absence totale d’erreurs ou d’omissions.
         </p>
         <p>
@@ -56,7 +56,7 @@ function MentionsLégales() {
           <a href="https://hello-dev0ps.vercel.app/">https://hello-dev0ps.vercel.app/</a>.
         </p>
         <p>
-          Anthony EXARTIER, Hello_Dev0ps! met en œuvre les moyens raisonnables afin d’assurer
+          Anthony EXARTIER, Hexa Décodeur met en œuvre les moyens raisonnables afin d’assurer
           la disponibilité et la sécurité du site. Toutefois, aucune garantie
           absolue ne peut être donnée quant à l’absence d’interruptions,
           d’erreurs ou d’incidents techniques.
