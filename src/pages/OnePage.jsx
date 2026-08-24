@@ -259,8 +259,8 @@ function OnePage({ onSectionChange }) {
                 <TechIcon id="github" className="contact-label-icon" />
                 GitHub
               </span>
-              <a href="https://github.com/hellOdevOps-bit" target="_blank" rel="noopener noreferrer">
-                github.com/hellOdevOps-bit
+              <a href="https://github.com/hexadecodeur" target="_blank" rel="noopener noreferrer">
+                github.com/hexadecodeur
               </a>
             </li>
           </ul>

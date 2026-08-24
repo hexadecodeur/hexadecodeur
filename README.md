@@ -32,7 +32,7 @@ Interface cyberpunk / HUD, déployée sur Vercel avec formulaire de contact (Res
 ## Installation
 
 ```bash
-git clone https://github.com/hellOdevOps-bit/hello-dev0ps.git
+git clone https://github.com/hexadecodeur/hexadecodeur.git
 cd hexa decodeur
 pnpm install
 cp .env.example .env.local
@@ -112,7 +112,7 @@ pnpm build
 **Anthony Exartier** — Hexa Décodeur
 
 - [LinkedIn](https://linkedin.com/in/anthony-exartier)
-- [GitHub](https://github.com/hellOdevOps-bit)
+- [GitHub](https://github.com/hexadecodeur)
 - [hexadecodeur@gmail.com](mailto:hexadecodeur@gmail.com)
 
 ## Licence
