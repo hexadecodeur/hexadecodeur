@@ -153,7 +153,7 @@ export async function POST(request) {
     }
 
     const from =
-      process.env.CONTACT_FROM || "Hexa Décodeur <onboarding@resend.dev>"
+      process.env.CONTACT_FROM || "Hexa Décodeur <contact@hexadecodeur.fr>"
     const to = process.env.CONTACT_TO || "hexadecodeur@gmail.com"
 
     const payload = {
