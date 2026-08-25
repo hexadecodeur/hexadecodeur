@@ -38,13 +38,16 @@ function ProjectSlide({ project }) {
           <div className="project-screenshots">
             <h4 className="project-section-heading">Captures d'écran</h4>
             <div className="project-screenshots-grid">
-              {project.screenshots.map(({ src, alt }) => (
+              {project.screenshots.map(({ src, alt, width, height }) => (
                 <img
                   key={alt}
                   src={src}
                   alt={alt}
                   className="project-screenshot"
+                  width={width}
+                  height={height}
                   loading="lazy"
+                  decoding="async"
                 />
               ))}
             </div>

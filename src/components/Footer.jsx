@@ -12,7 +12,7 @@ function Footer() {
           aria-label="Retour en haut de page"
           onClick={(e) => scrollToSection(e, "home")}
         >
-          <img src={logo} alt="Hexa Décodeur" className="logo" />
+          <img src={logo} alt="Hexa Décodeur" className="logo" width={500} height={500} />
         </a>
 
         <nav className="site-footer-legal" aria-label="Informations légales">

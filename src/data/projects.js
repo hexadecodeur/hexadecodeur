@@ -48,10 +48,10 @@ export const PROJECTS = [
       },
     ],
     screenshots: [
-      { src: galerie, alt: "WedQR — Galerie photos" },
-      { src: planTable, alt: "WedQR — Plan de table interactif" },
-      { src: accueil, alt: "WedQR — Page d'accueil" },
-      { src: livreDor, alt: "WedQR — Livre d'or" },
+      { src: galerie, alt: "WedQR — Galerie photos", width: 1080, height: 1762 },
+      { src: planTable, alt: "WedQR — Plan de table interactif", width: 1080, height: 2103 },
+      { src: accueil, alt: "WedQR — Page d'accueil", width: 1080, height: 2075 },
+      { src: livreDor, alt: "WedQR — Livre d'or", width: 1080, height: 1919 },
     ],
   },
   {

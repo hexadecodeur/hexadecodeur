@@ -8,9 +8,8 @@ import ProductFeaturesGrid from "../components/ProductFeaturesGrid"
 import ContactForm from "../components/ContactForm"
 import { PROJECTS } from "../data/projects"
 import { getHeaderOffset } from "../utils/scroll"
-import background from "../assets/images/background-brain-cyberpunk.jpg"
-import aboutPhoto from "../assets/images/anthony-profile.png"
-import heroLogo from "../assets/logos/color_hexadecodeur_no_bg.svg"
+import background from "../assets/images/background-brain-cyberpunk.webp"
+import aboutPhoto from "../assets/images/anthony-profile.webp"
 
 const SECTION_IDS = ["home", "about", "services", "expertise", "projects", "contact"]
 const ASSISTANT_INTRO_ENABLED = false
@@ -65,9 +64,12 @@ function OnePage({ onSectionChange }) {
         <div className="hero">
           <div className="hero-content">
             <img
-              src={heroLogo}
+              src="/logo-hexadecodeur.svg"
               alt="Hexa Décodeur"
               className="hero-logo"
+              width={500}
+              height={500}
+              fetchPriority="high"
             />
             <p className="hero-subtitle">
               Vous avez les idées, j'ai les outils.
@@ -99,6 +101,9 @@ function OnePage({ onSectionChange }) {
             src={aboutPhoto}
             alt="Anthony Exartier"
             className="about-photo"
+            width={800}
+            height={1000}
+            decoding="async"
           />
           <p>
             Je m’appelle Anthony Exartier, développeur passionné par les systèmes,
