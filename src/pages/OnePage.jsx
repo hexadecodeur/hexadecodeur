@@ -113,7 +113,7 @@ function OnePage({ onSectionChange }) {
             les machines et les interfaces intelligentes.
           </p>
 
-          <h3>DE LA SANTÉ À LA TECH</h3>
+          <h2>DE LA SANTÉ À LA TECH</h2>
 
           <p>
             Après une dizaine d'années dans le domaine de la santé, j’ai choisi d’élargir mon activité au développement logiciel
@@ -121,14 +121,14 @@ function OnePage({ onSectionChange }) {
             tout en développant progressivement mon activité dans la tech.
           </p>
 
-          <h3>AUJOURD'HUI</h3>
+          <h2>AUJOURD'HUI</h2>
 
           <p>
             Aujourd’hui, je conçois des applications, des sites web et des outils sur mesure,
             en combinant logique humaine, automatisation et intégration de l'intelligence artificielle.
           </p>
 
-          <h3>MA PHILOSOPHIE</h3>
+          <h2>MA PHILOSOPHIE</h2>
 
           <p>
             Mes premiers projets sont nés de besoins que je connaissais directement :

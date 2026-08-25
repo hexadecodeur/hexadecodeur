@@ -1,7 +1,7 @@
 function ProjectSection({ heading, text, items }) {
   return (
     <div className="project-section">
-      <h4 className="project-section-heading">{heading}</h4>
+      <h3 className="project-section-heading">{heading}</h3>
       {text && <p className="project-section-text">{text}</p>}
       {items && (
         <ul className="project-section-list">
@@ -18,7 +18,7 @@ function ProjectSlide({ project }) {
   if (project.sections) {
     return (
       <article className="project-slide project-slide--detailed">
-        <h3 className="project-slide-title">{project.title}</h3>
+        <h2 className="project-slide-title">{project.title}</h2>
         <p className="project-stack">
           <span className="project-stack-label">Stack</span>
           {project.stack}
@@ -36,7 +36,7 @@ function ProjectSlide({ project }) {
         ))}
         {project.screenshots?.length > 0 && (
           <div className="project-screenshots">
-            <h4 className="project-section-heading">Captures d'écran</h4>
+            <h3 className="project-section-heading">Captures d'écran</h3>
             <div className="project-screenshots-grid">
               {project.screenshots.map(({ src, alt, width, height }) => (
                 <img
@@ -59,7 +59,7 @@ function ProjectSlide({ project }) {
 
   return (
     <article className="project-slide">
-      <h3 className="project-slide-title">{project.title}</h3>
+      <h2 className="project-slide-title">{project.title}</h2>
       <p className="project-slide-description">{project.description}</p>
     </article>
   )

@@ -618,8 +618,12 @@ section[id] {
   overflow: hidden;
 }
 
-.about-content h3 {
+.about-content > h2 {
   font-family: var(--font-display);
+  color: var(--text-main);
+  font-size: 1.17em;
+  font-weight: bold;
+  margin: 1em 0;
 }
 
 .about-photo {
@@ -664,7 +668,7 @@ section[id] {
   display: block;
 }
 
-.project-slide-title {
+.page-content .project-slide-title {
   font-family: var(--font-display);
   color: var(--accent-cyan);
   margin-bottom: 0.75rem;
@@ -856,28 +860,41 @@ section[id] {
 .carousel-dots {
   display: flex;
   justify-content: center;
-  gap: 0.5rem;
+  gap: calc(0.5rem + 8px - 32px);
   margin-top: 1rem;
 }
 
 .carousel-dot {
-  width: 8px;
-  height: 8px;
+  position: relative;
+  width: 32px;
+  height: 32px;
   padding: 0;
   border: none;
   border-radius: 50%;
-  background: rgba(234, 234, 255, 0.3);
+  background: transparent;
   cursor: pointer;
+}
+
+.carousel-dot::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(234, 234, 255, 0.3);
+  transform: translate(-50%, -50%);
   transition: background 0.2s ease, transform 0.2s ease;
 }
 
-.carousel-dot:hover {
+.carousel-dot:hover::after {
   background: rgba(234, 234, 255, 0.5);
 }
 
-.carousel-dot[aria-current="true"] {
+.carousel-dot[aria-current="true"]::after {
   background: var(--accent-cyan);
-  transform: scale(1.2);
+  transform: translate(-50%, -50%) scale(1.2);
 }
 
 /* Contact */
