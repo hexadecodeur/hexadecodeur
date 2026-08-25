@@ -10,6 +10,7 @@ import { PROJECTS } from "../data/projects"
 import { getHeaderOffset } from "../utils/scroll"
 import background from "../assets/images/background-brain-cyberpunk.webp"
 import aboutPhoto from "../assets/images/anthony-profile.webp"
+import aboutPhotoSm from "../assets/images/anthony-profile-560.webp"
 
 const SECTION_IDS = ["home", "about", "services", "expertise", "projects", "contact"]
 const ASSISTANT_INTRO_ENABLED = false
@@ -99,6 +100,8 @@ function OnePage({ onSectionChange }) {
         <div className="page-content about-content">
           <img
             src={aboutPhoto}
+            srcSet={`${aboutPhotoSm} 560w, ${aboutPhoto} 800w`}
+            sizes="(max-width: 640px) min(280px, 100vw), 280px"
             alt="Anthony Exartier"
             className="about-photo"
             width={800}

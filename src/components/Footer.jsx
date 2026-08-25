@@ -1,4 +1,4 @@
-import logo from "../assets/logos/logoHDblancsansbg.png"
+import logo from "../assets/logos/logoHDblancsansbg.webp"
 import { LEGAL_LINKS } from "../data/nav"
 import { scrollToSection } from "../utils/scroll"
 
@@ -12,7 +12,7 @@ function Footer() {
           aria-label="Retour en haut de page"
           onClick={(e) => scrollToSection(e, "home")}
         >
-          <img src={logo} alt="Hexa Décodeur" className="logo" width={500} height={500} />
+          <img src={logo} alt="Hexa Décodeur" className="logo" width={128} height={128} />
         </a>
 
         <nav className="site-footer-legal" aria-label="Informations légales">

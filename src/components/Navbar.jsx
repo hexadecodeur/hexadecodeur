@@ -1,5 +1,5 @@
 import { useRef, useLayoutEffect, useState } from "react"
-import logo from "../assets/logos/logoHDblancsansbg.png"
+import logo from "../assets/logos/logoHDblancsansbg.webp"
 import { NAV_ITEMS } from "../data/nav"
 import { scrollToSection } from "../utils/scroll"
 
@@ -41,7 +41,7 @@ function Navbar({ activeSection = "home" }) {
         aria-label="Accueil"
         onClick={(e) => scrollToSection(e, "home")}
       >
-        <img src={logo} alt="Hexa Décodeur" className="logo" width={500} height={500} />
+        <img src={logo} alt="Hexa Décodeur" className="logo" width={128} height={128} />
       </a>
 
       <div ref={navLinksRef} className="nav-links">
