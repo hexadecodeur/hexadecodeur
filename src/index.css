@@ -369,6 +369,27 @@ section[id] {
   font-size: 1.25rem;
 }
 
+.page-content ul {
+  margin: 0.5rem 0 1rem 1.25rem;
+  line-height: 1.7;
+  opacity: 0.85;
+}
+
+.page-content li {
+  margin-bottom: 0.65rem;
+}
+
+.page-content a {
+  color: var(--accent-cyan);
+}
+
+.page-content code {
+  font-size: 0.9em;
+  padding: 0.1em 0.35em;
+  border: 1px solid rgba(0, 246, 255, 0.25);
+  background: rgba(0, 246, 255, 0.06);
+}
+
 .product-features {
   margin: 1.5rem 0 0.5rem;
 }
@@ -1330,10 +1351,118 @@ section[id] {
   height: 1.1rem;
 }
 
+.cookie-banner {
+  position: fixed;
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 1100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem;
+  padding: 1.1rem 1.25rem;
+  background: rgba(10, 10, 15, 0.96);
+  border: 1px solid rgba(0, 246, 255, 0.35);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.45);
+}
+
+.cookie-banner-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.cookie-banner-title {
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  color: var(--accent-cyan);
+  margin-bottom: 0.4rem;
+}
+
+.cookie-banner-text {
+  font-size: 0.95rem;
+  line-height: 1.45;
+  opacity: 0.85;
+}
+
+.cookie-banner-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  flex-shrink: 0;
+}
+
+.cookie-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.55rem 1rem;
+  border: 1px solid transparent;
+  background: none;
+  color: var(--text-main);
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.cookie-btn-accept {
+  border-color: var(--accent-cyan);
+  color: var(--accent-cyan);
+}
+
+.cookie-btn-accept:hover {
+  background: rgba(0, 246, 255, 0.1);
+}
+
+.cookie-btn-refuse {
+  border-color: rgba(234, 234, 255, 0.35);
+}
+
+.cookie-btn-refuse:hover {
+  border-color: var(--text-main);
+}
+
+.cookie-btn-manage {
+  border-color: transparent;
+  opacity: 0.8;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.cookie-btn-manage:hover {
+  opacity: 1;
+  color: var(--accent-cyan);
+}
+
 /* Mobile — header compact & sections lisibles */
 @media (max-width: 768px) {
   :root {
     --header-height: 48px;
+  }
+
+  .cookie-banner {
+    left: 0.65rem;
+    right: 0.65rem;
+    bottom: 0.65rem;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.9rem;
+    padding: 1rem;
+  }
+
+  .cookie-banner-actions {
+    width: 100%;
+  }
+
+  .cookie-btn {
+    flex: 1 1 calc(50% - 0.3rem);
+  }
+
+  .cookie-btn-manage {
+    flex: 1 1 100%;
   }
 
   .navbar {

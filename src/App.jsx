@@ -1,13 +1,18 @@
-import { useState, useEffect } from "react"
+import { useEffect, useState } from "react"
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/react"
 
 import Layout from "./components/Layout"
+import CookieBanner from "./components/CookieBanner"
 import OnePage from "./pages/OnePage"
 import Cgv from "./pages/cgv"
 import PolitiqueConfid from "./pages/PolitiqueConfid"
 import MentionsLégales from "./pages/MentionsLégales"
 import GestionCookies from "./pages/GestionCookies"
+import {
+  COOKIE_CONSENT_CHANGE_EVENT,
+  getConsent,
+} from "./utils/analyticsConsent"
 
 const LEGAL_PAGES = {
   "mentions-legales": MentionsLégales,
@@ -24,6 +29,9 @@ function getPageFromHash() {
 function App() {
   const [activeSection, setActiveSection] = useState("home")
   const [page, setPage] = useState(getPageFromHash)
+  const [analyticsAllowed, setAnalyticsAllowed] = useState(
+    () => getConsent() === "accepted"
+  )
 
   useEffect(() => {
     const onHashChange = () => setPage(getPageFromHash())
@@ -34,6 +42,14 @@ function App() {
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [page])
+
+  useEffect(() => {
+    const onConsentChange = (event) => {
+      setAnalyticsAllowed((event.detail ?? getConsent()) === "accepted")
+    }
+    window.addEventListener(COOKIE_CONSENT_CHANGE_EVENT, onConsentChange)
+    return () => window.removeEventListener(COOKIE_CONSENT_CHANGE_EVENT, onConsentChange)
+  }, [])
 
   const LegalPage = LEGAL_PAGES[page]
 
@@ -46,8 +62,13 @@ function App() {
           <OnePage onSectionChange={setActiveSection} />
         )}
       </Layout>
-      <Analytics />
-      <SpeedInsights />
+      <CookieBanner />
+      {analyticsAllowed && (
+        <>
+          <Analytics />
+          <SpeedInsights />
+        </>
+      )}
     </>
   )
 }
