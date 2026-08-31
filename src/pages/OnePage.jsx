@@ -250,7 +250,7 @@ function OnePage({ onSectionChange }) {
             {CONTACT_PHONE_ENABLED && (
               <li>
                 <span className="contact-label">Téléphone</span>
-                <a href="tel:+33000000000">+33 0 00 00 00 00</a>
+                <a href="tel:+33631355164">+33 6 31 35 51 64</a>
               </li>
             )}
             <li>

@@ -15,10 +15,9 @@ function MentionsLégales() {
             <li>
               Propriétaire du site : Anthony EXARTIER - Entrepreneur individuel, Hexa Décodeur
               - Contact : <a href="mailto:hexadecodeur@gmail.com">hexadecodeur@gmail.com</a>
-              - Numéro de téléphone : 06.00.00.00.00 - Adresse : Tarn (81).
+              - Numéro de téléphone : 06.31.35.51.64 - Adresse : Tarn (81).
             </li>
             <li>Identification de l'entreprise : Anthony EXARTIER, Hexa Décodeur - SIREN : 898 946 710 - Adresse postale : Tarn (81)</li>
-            <li>Numéro de TVA : FR67898946710</li>
             <li>Directeur de la publication : Anthony EXARTIER - Contact : <a href="mailto:hexadecodeur@gmail.com">hexadecodeur@gmail.com</a></li>
           </ul>
         </p>
